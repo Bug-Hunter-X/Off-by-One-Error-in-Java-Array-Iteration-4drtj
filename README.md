@@ -1,0 +1,1 @@
+This repository demonstrates a common off-by-one error in Java. The bug.java file contains the erroneous code that causes an ArrayIndexOutOfBoundsException.  The BugSolution.java file provides the corrected code.  The error occurs due to the loop condition 'i <= arr.length', which should be 'i < arr.length'.
